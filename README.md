@@ -39,7 +39,7 @@
 | handdetection | Venv                      |
 | main.py       | To create Dataset         |
 | test.py       | To run Dataset            |
-| req.txt       | Requirement for program   |
+| requirements.txt       | Requirement for program   |
 
 ## Getting Started
 
@@ -57,26 +57,30 @@
 
 * Matplotlib: Matplotlib is a plotting library for Python. It can be installed using the command "pip install matplotlib".
 
-* req.txt file: This file contains all the dependencies needed to run the code. It can be installed using the command "pip install -r req.txt".
+* requirements.txt file: This file contains all the dependencies needed to run the code. It can be installed using the command "pip install -r requirements.txt".
 
 ### Installing
 * clone repository :- type in cmd terminal
 ```
-git clone https://github.com/harshkasat/projectMLHprefellowship-.git
+git clone https://github.com/harshkasat/SignSleuth
+cd SignSleuth
 ```
 
 
-### Executing program
+### Run Program
 
 * activate venv
 ```
 .\handdetection\Scripts\activate
 ```
-* install req.txt 
+* install requirements.txt 
 ```
-python install req.txt
+python install requirements.txt
 ```
-* run test.py
+* Run Program
+```bash
+test.py
+```
 
 |    IDe            |    Run Code    |
 | ----------------- | -------------- |
@@ -87,6 +91,4 @@ python install req.txt
 ## Authors
 
 Contributors names and contact info
-
-* ex. HarshKasat 
 * ex. [@HarshKasat](https://twitter.com/harsh__kasat)
