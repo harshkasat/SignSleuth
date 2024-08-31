@@ -71,6 +71,7 @@ cd SignSleuth
 
 * activate venv
 ```
+python -m venv handdetection
 .\handdetection\Scripts\activate
 ```
 * install requirements.txt 
